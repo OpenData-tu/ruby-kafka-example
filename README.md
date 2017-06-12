@@ -9,3 +9,5 @@ That happens here `%x[docker-machine ip]`. Look at the raw #2 in the `producer.r
 kafka = Kafka.new(seed_brokers: ["#{%x[docker-machine ip].rstrip}:9092"])
 ...
 ```
+
+[Read more](https://github.com/zendesk/ruby-kafka#consuming-messages-from-kafka) about ruby-kafka gem.
