@@ -10,4 +10,4 @@ kafka = Kafka.new(seed_brokers: ["#{%x[docker-machine ip].rstrip}:9092"])
 ...
 ```
 
-[Read more](https://github.com/zendesk/ruby-kafka#consuming-messages-from-kafka) about ruby-kafka gem.
+Read more about [ruby-kafka](https://github.com/zendesk/ruby-kafka#consuming-messages-from-kafka)  gem.
